@@ -1,0 +1,10 @@
+kind: Route
+apiVersion: route.openshift.io/v1
+metadata:
+  namespace: bgd
+  labels: {}
+spec:
+  to:
+    kind: Service
+  tls: null
+  port: {}
